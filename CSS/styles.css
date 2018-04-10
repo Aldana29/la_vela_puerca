@@ -1,0 +1,190 @@
+html {font-size: 62.5%;
+	font-family: sans-serif; }
+
+    * {
+        margin: 0;
+        box-sizing: border-box;}
+
+.Encabezado {
+            font-size: 13rem; 
+           word-spacing: 2rem;
+            letter-spacing: 5rem;
+           height: 35rem;
+            overflow: hidden;
+        background-image: url("https://i.ytimg.com/vi/Tfheqt8T4FU/maxresdefault.jpg") ;}
+
+.Encabezado p {text-align:center;
+    color: white;
+    animation: costado 5s infinite ease;
+ }
+
+@keyframes costado {
+
+    0% {transform: translate(0, 0);}
+
+    50% {transform: translate(0, -10rem);}
+
+    80% {transform: translate(0, -30rem);}
+
+    100% {transform: translate (0, -60rem);}
+
+}
+
+.rojo {color: rgb(226, 67, 80);
+       }
+
+
+.barramenu { width: 40%;
+            height: 4rem;
+            background-color:rgba(171,38,50,3); 
+           
+           margin-left: auto;
+            margin-right:auto;}
+
+a {text-decoration: none;
+    color: white;
+   padding: 2.2rem;
+  }
+
+
+
+.Botonera {color: rgb(36,34,38);
+        font-size: 2rem;
+        width: 100%;
+       padding-top: 0.8rem;
+       display:inline-block;}
+
+.Botonera ul {list-style: none;
+             margin:0;
+            padding:0;
+            
+            }
+
+.principal {width: 100%;
+            position:relative;
+            display:block;}
+
+.principal  > li {
+    float:left;
+}
+
+.principal li:hover .desplegable {background-color:rgb(226, 67, 80); }
+
+.principal li ul {display:none;
+                position:absolute;
+                min-width: 20rem;}
+
+.principal li:hover >ul {display: block;}
+
+
+h1 {color: rgba(171,38,50,4);
+    font-size: 3rem;
+   margin-top: 4rem;}
+ 
+h2 { color: rgb(36,34,38);
+    font-size: 2rem;}
+
+.Fecha {color: rgba(171,38,50,4);
+        font-size: 1.5em; }
+
+.Titulosdospuntos { color:rgb(116, 13, 22);
+                    font-size: 1.2em;
+                    text-align: center;}
+
+.cds {width: 280px;
+    height: 280PX;
+     float:left;
+     margin:4rem;
+     }
+
+.cds p {color: rgb(171,38,50);
+       font-size:2rem;
+       text-align: center;
+        margin-bottom: 2rem;}
+
+
+
+
+
+.imagen1 {width:280px;
+          height: 280px;
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.20);
+          position: relative;
+          background-image: url("http://www.velapuerca.com/media/uploads/covers/cd02_01.jpg");
+          cursor: pointer;
+         }
+
+.imagen1:hover {transform: scale(1);
+                }
+
+
+
+.descripcion {width: 280px;
+             height: 280px;
+             position: absolute;
+            background-color:rgba(171,38,50,0.9);
+            opacity:0;
+            font-size:2rem;
+            color:white;
+            padding: 1rem;
+            text-align: center; }
+
+.textocorrido {font-size: 1rem;}
+
+.imagen1:hover .descripcion {opacity:1;}
+
+
+
+
+
+
+.imagen2 {width:280px;
+    height: 280px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.20);
+    position: relative;
+    background-image: url("http://www.velapuerca.com/media/uploads/covers/cd03_01.jpg");
+    cursor: pointer;
+   }
+
+.imagen2:hover {transform: scale(1);
+          }
+
+
+
+.descripcion {width: 280px;
+       height: 280px;
+       position: absolute;
+      background-color:rgba(171,38,50,0.9);
+      opacity:0;
+      font-size:2rem;
+      color:white;
+      padding: 1rem;
+      text-align: center; }
+
+.textocorrido {font-size: 1rem;}
+
+.imagen2:hover .descripcion {opacity:1;}
+
+
+
+
+
+
+    
+.cleaner {clear: both;}
+
+.Pie { color: rgb(171,38,50);
+    font-size: 1em;}
+
+.columna { width: 33.3%;
+           float: left;
+         }
+
+.columna p {margin-top: 0.3rem;
+            padding-right: 1rem;
+        text-align: center;}
+    
+.cleaner {clear: both;}
+
+
+/*CON a {} le pongo a todos los links los estilos que elija/*
